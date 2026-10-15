@@ -3,7 +3,7 @@
   "id": "hiv-blood-atlas-v6",
   "name": "HIV blood atlas v6 (preview, public)",
   "description": "PREVIEW of the amfAR HIV blood atlas, build blood_all_v6 (scVI, batch key = library); integration is not final. PUBLIC, DE-IDENTIFIED derivative of 4 public deposits: no donor or specimen IDs, sex, age, CD4 or viral load; 'library' is a study-scoped code. Expression = log1p(CP10k) for the 3,000 HVGs + a standard immune marker panel. Graph = each cell's 10 strongest neighbours (display only). hiv_rna: 'HIV RNA detected' = >=1 HIV UMI against the deposit's own reference; 'not detected' includes latent cells (RNA, not provirus, is measured). Peterson cells were all cultured overnight; one arm also got PMA/ionomycin (see ex_vivo_treatment). PWOH = Frouard's 3 control donors only.",
-  "created_at": "2026-10-15T15:53:01Z",
+  "created_at": "2026-10-15T17:43:28Z",
   "cellucid_data_version": "0.9.1",
   "stats": {
     "n_cells": 904636,
@@ -16,11 +16,13 @@
   },
   "embeddings": {
     "available_dimensions": [
-      2
+      2,
+      3
     ],
-    "default_dimension": 2,
+    "default_dimension": 3,
     "files": {
-      "2d": "points_2d.bin.gz"
+      "2d": "points_2d.bin.gz",
+      "3d": "points_3d.bin.gz"
     }
   },
   "obs_fields": [
