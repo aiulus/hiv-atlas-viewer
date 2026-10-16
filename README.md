@@ -31,5 +31,7 @@ No donor or specimen identifiers, sex, age, CD4 count or viral load.
 - "HIV RNA detected" = at least one HIV UMI against the deposit's own reference. "Not detected"
   includes latently infected cells: RNA is measured, not provirus.
 - Peterson cells were all cultured overnight; one arm also got PMA/ionomycin (`ex_vivo_treatment`).
-- PWOH = Frouard's 3 control donors only.
+- PWOH (people without HIV) = Frouard's 3 control donors in v6; v7 adds Wei et al. 2023's donors
+  without HIV.
+- v7: Wei et al. 2023 cells without a per-cell HIV call are shown as "not evaluable".
 - Cite the original studies above when using these data.
